@@ -1,10 +1,10 @@
  #include <ESP8266WiFi.h>
 #include <FirebaseArduino.h>
 
-const char* ssid     = "#Enter Wifi Ssid";
-const char* password = "#Enter Wifi Password";
-#define FIREBASE_HOST "xxx.firebaseio.com"
-#define FIREBASE_AUTH "enter auth key!"
+const char* ssid     = "WIFI";
+const char* password = "sahu@123";
+#define FIREBASE_HOST "smart-dustbin-e369d.firebaseio.com"
+#define FIREBASE_AUTH "EUcD7I5akbDmqr3teJdiF7WRdCpjRziMbqqzWcMB"
 
 const int trigPin = 2;  
 const int echoPin = 0; 
@@ -41,5 +41,5 @@ distance= duration*0.034/2;
 Serial.print("Distance: ");
 Serial.println(distance);
 delay(2000);
-Firebase.pushInt("status",distance);
+Firebase.setInt("All_Bins/Java/Bio_percent",distance);
 }

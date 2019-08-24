@@ -9,6 +9,9 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapView;
+import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.firebase.database.DatabaseReference;
 
 public class Trash extends Fragment implements OnMapReadyCallback, GoogleMap.OnMarkerClickListener {
