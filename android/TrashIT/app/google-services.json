@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1040021451742",
+    "firebase_url": "https://trash-it-ee24c.firebaseio.com",
+    "project_id": "trash-it-ee24c",
+    "storage_bucket": "trash-it-ee24c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040021451742:android:1d1abf58d9f50062",
+        "android_client_info": {
+          "package_name": "org.envision.trash_it"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040021451742-8vhfjevgbn1dl8ojbmcemolq8g97smhp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.envision.trash_it",
+            "certificate_hash": "91c74370108a8f98320d6315ccc1a2ea1c65883b"
+          }
+        },
+        {
+          "client_id": "1040021451742-tn88hjh8621sm7q04t89if7gavq0q1sq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCusWe7-gyI-2wCxQs68V5QdCxD4iy_JMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040021451742-tn88hjh8621sm7q04t89if7gavq0q1sq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

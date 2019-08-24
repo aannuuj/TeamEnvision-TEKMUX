@@ -3,4 +3,6 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="about">Welcome to TrashIt!.TrashIt! is a waste management and disposal soultion which is our eager inititative under the Swacch Bharat Abhiyaan.Trashit! uses ML,IOT and an android app as frontend for its implementation.An image classification ML model sorts the trash into Biodegradable and non Biodegradable trash items.The trash is sent to the one of the two bins based on the classification by IOT (Raspberry pi).This front end app and iot model are synchronized through Realtime Firebase DB to show analytics for multiple bins close to your location</string>
+
 </resources>
